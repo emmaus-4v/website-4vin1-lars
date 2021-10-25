@@ -1,0 +1,174 @@
+body {
+    /*background-image: url("https://cutewallpaper.org/21/crypto-wallpaper/Monday-blues-a-passive-crypto-market-today-CoinNewsSpan.jpg");
+    background-image: url("https://i.pinimg.com/originals/33/29/10/3329103a60d577aff682ff31982e1adc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    background-image: url("https://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg"); 
+    color: rgb(130, 220, 255);*/
+    background-color: #061121;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.header {
+    background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));
+    width: fit-content;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    color: black;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 150px;
+}
+
+.midden{
+    background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));
+    width: fit-content;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    color: black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.textbox{
+    text-align: left;
+    width: fit-content;
+    height:fit-content ;
+    color: white;
+    position: relative;
+    left: 150px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -5px;
+    top: -20px;
+}
+
+ol li{
+    position: relative;
+    right: 20px;
+    display: inline;
+    list-style: none;
+    color: rgb(192, 192, 192, 80%)
+}
+
+ol li .currency{
+    margin: 0 5px;
+    transition: 0.7s;
+    color: rgba(192, 192, 192,70%);
+    padding: 3px 0;
+    /*border-color: rgba(160, 160, 160, 0%);*/
+}
+
+ol li:hover .currency{
+    margin: 0 15px;
+    color: white;
+    padding: 3px 8px;
+    background-color: #040d1a;
+    border-radius: 15px;
+    /*border: solid 0.3px rgba(160, 160, 160, 20%);*/
+}
+
+.disclaimer{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    transition: 0.5s;
+}
+
+.disclaimer:hover{
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #030911;
+    color: rgb(134, 134, 134);
+    text-align: center;
+    border-top: 0.2px solid rgba(160, 160, 160, 20%);
+}
+
+.footertext{
+    margin: 0 15px;
+    color: rgb(134, 134, 134);
+    transition: 0.5s;
+}
+
+.footertext:hover{
+    color: white;
+}
+
+/*menu*/
+.menu {
+    height: 60px;
+    border-bottom: 0.5px solid rgba(160, 160, 160, 20%);
+    position: relative;
+    top: -15px;
+    margin-bottom: 50px;
+    /*background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    opacity: 0.5;
+    width: fit-content;
+    padding:10px 20px;
+    margin: auto;
+    border-radius: 10px;*/
+}
+
+ul li {
+    position: relative;
+    list-style:none;
+    display:inline-block;
+    top: 13px;
+    margin:0 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 75%);
+    margin: 0 20;
+    position: relative;
+    top: center;
+    transition: 0.5s;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+ul li a::after{
+    content: '';
+    height: 2px;
+    background-color: #2AF598;
+    background-image: linear-gradient(45deg, #2AF598 0%, #009688 40%);
+    width: 0;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+ul li a:hover::after {
+    /*color:rgb(255, 255, 255);
+    position: relative;
+    top: -6px; 
+    #2AF598
+    border-bottom: 1.5px solid #2AF598;*/
+    width: 100%;
+}
+
