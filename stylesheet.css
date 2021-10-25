@@ -46,6 +46,8 @@ body {
     color: white;
     position: relative;
     left: 150px;
+    border-left: #009688 solid 1.5px;
+    padding-left: 7px;
 }
 
 .logo {
@@ -76,8 +78,9 @@ ol li:hover .currency{
     margin: 0 15px;
     color: white;
     padding: 3px 8px;
-    background-color: #040d1a;
-    border-radius: 15px;
+   /* background-color: #040d1a;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;*/
     /*border: solid 0.3px rgba(160, 160, 160, 20%);*/
 }
 
@@ -141,7 +144,8 @@ ul li a{
     font-size:20px;
     font-family: 'Titillium Web', sans-serif;
     padding: 10px 0;
-    color: rgba(255, 255, 255, 75%);
+    /*color: rgba(255, 255, 255, 75%);*/
+    color: white;
     margin: 0 20;
     position: relative;
     top: center;
@@ -155,8 +159,11 @@ ul li a:hover{
 ul li a::after{
     content: '';
     height: 2px;
-    background-color: #2AF598;
-    background-image: linear-gradient(45deg, #2AF598 0%, #009688 40%);
+    /*background-color: #2AF598;
+    background-image: linear-gradient(45deg, #2AF598 0%, #009688 40%);*/
+    /*background-color: rgb(94, 25, 255);
+    background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));*/
+    background-color: #009688;
     width: 0;
     display:block;
     margin: auto;
