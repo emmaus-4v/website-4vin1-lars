@@ -76,7 +76,7 @@ ol li:hover .currency{
     margin: 0 15px;
     color: white;
     padding: 3px 8px;
-   /* background-color: #040d1a;
+    /*background-color: #030911;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;*/
     /*border: solid 0.3px rgba(160, 160, 160, 20%);*/
@@ -143,15 +143,15 @@ ul li a{
     font-family: 'Titillium Web', sans-serif;
     padding: 10px 0;
     /*color: rgba(255, 255, 255, 75%);*/
-    color: white;
+    color: rgb(170, 170, 170);
     margin: 0 20;
     position: relative;
     top: center;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 ul li a:hover{
-    color: white;
+    color: #ffffff;
 }
 
 ul li a::after{
@@ -165,7 +165,7 @@ ul li a::after{
     width: 0;
     display:block;
     margin: auto;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 ul li a:hover::after {
