@@ -40,10 +40,12 @@ body {
 }
 
 .headerline{
-    width: fit-content;
-    border: 0.5px solid #009688;
-    padding: 0px;
-    height:fit-content;
+    margin-top: 50px;
+    width: 200px;
+    border-bottom: 0.5px solid #009688;
+    text-align: left;
+    position: relative;
+    left: 150px;
 }
 
 .textbox{
