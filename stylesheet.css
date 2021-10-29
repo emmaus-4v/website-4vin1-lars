@@ -27,7 +27,7 @@ body {
     left: 150px;
 }
 
-.midden{
+.headercenter{
     background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));
     width: fit-content;
     padding: 0 20px;
@@ -37,6 +37,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+}
+
+.headerline{
+    width: fit-content;
+    border: 0.5px solid #009688;
+    padding: 0px;
+    height:fit-content;
 }
 
 .textbox{
@@ -165,6 +172,7 @@ ul li a::after{
     width: 0;
     display:block;
     margin: auto;
+    margin-top: 2px;
     transition: 0.7s;
 }
 
