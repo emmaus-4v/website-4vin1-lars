@@ -13,6 +13,7 @@ body {
     color: white;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
+    margin-bottom: 56px;
 }
 
 .header {
@@ -71,6 +72,10 @@ ol li{
     display: inline;
     list-style: none;
     color: rgb(192, 192, 192, 80%)
+}
+
+.currency{
+    text-decoration: none;
 }
 
 ol li .currency{
