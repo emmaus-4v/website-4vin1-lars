@@ -52,10 +52,11 @@ body {
 .textbox{
     text-align: left;
     width: fit-content;
-    height:fit-content ;
+    height:fit-content;
     color: white;
     position: relative;
     left: 150px;
+    width :600px;
 }
 
 .logo {
