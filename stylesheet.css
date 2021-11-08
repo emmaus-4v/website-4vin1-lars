@@ -14,10 +14,12 @@ body {
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     margin-bottom: 56px;
+    margin-top: 70px;
 }
 
 .header {
     background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));
+    margin-top: 100px;
     width: fit-content;
     padding: 0 20px;
     margin-bottom: 30px;
@@ -30,6 +32,7 @@ body {
 
 .headercenter{
     background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));
+    margin-top: 100px;
     width: fit-content;
     padding: 0 20px;
     margin-bottom: 40px;
@@ -59,13 +62,13 @@ body {
     width :600px;
 }
 
-.logo {
+/*.logo {
     width: 100px;
     height: 100px;
     position: absolute;
     left: -5px;
     top: -20px;
-}
+}*/
 
 ol li{
     position: relative;
@@ -130,11 +133,15 @@ ol li:hover .currency{
 
 /*menu*/
 .menu {
-    height: 60px;
+    height: 75px;
+    width:100%;
     border-bottom: 0.5px solid rgba(160, 160, 160, 20%);
-    position: relative;
+    position: fixed;
     top: -15px;
-    margin-bottom: 50px;
+    background: rgba(#061121, 0.2);
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+    /*background-color: #061121;*/
     /*background-color: #FFE53B;
     background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
     opacity: 0.5;
