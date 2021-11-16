@@ -46,11 +46,26 @@ body {
 .headerline{
     margin-top: 50px;
     width: 200px;
-    border-bottom: 0.5px solid #009688;
     text-align: left;
     position: relative;
     left: 150px;
+    border-bottom: #009688 solid 0.5px;
 }
+
+/*
+.line{
+    position: relative;
+    left: 150px;
+    height: 50px;
+    border-bottom: 0.5px solid #009688;
+    transition: 2s;
+    width: 100px;
+}
+
+.line:hover{
+    width:200px;
+}*/
+
 
 .textbox{
     text-align: left;
@@ -153,7 +168,7 @@ footer{
     border-bottom: 0.5px solid rgba(160, 160, 160, 20%);
     position: fixed;
     top: -15px;
-    background-color: rgba(#061121, 0.2);
+    background-color: rgba(#061121, 0.5);
     backdrop-filter:blur(15px);
     -webkit-backdrop-filter:blur(15px);
     /*background-color: #061121;*/
