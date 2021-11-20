@@ -244,3 +244,7 @@ ul li a.active::after{
     color: white;
 }
 
+.floatright{
+    float: right;
+}
+
