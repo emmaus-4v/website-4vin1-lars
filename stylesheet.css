@@ -115,6 +115,42 @@ ol li:hover .currency{
     /*border: solid 0.3px rgba(160, 160, 160, 20%);*/
 }
 
+/*.form{
+    position:relative ;
+    left: 150px;
+    width: 500px;
+    height: 100px;
+    background-color: #030911;
+    
+}*/
+
+fieldset{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 500px;
+    height: fit-content;
+    border: solid 1px #009688;
+    border-top-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+}
+
+.signup{
+    margin: 0;
+}
+
+.label{
+    font-weight: bolder ;
+}
+
+input{
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    color: white;
+}
+
 .disclaimer{
     text-decoration: none;
     color: rgb(134, 134, 134);
@@ -183,6 +219,7 @@ footer{
 
 ul li {
     position: relative;
+    left: 64px;
     list-style:none;
     display:inline-block;
     top: 13px;
@@ -246,5 +283,7 @@ ul li a.active::after{
 
 .floatright{
     float: right;
+    position: relative;
+    left: 0;
 }
 
