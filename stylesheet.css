@@ -124,7 +124,7 @@ ol li:hover .currency{
     
 }*/
 
-/*form*/
+/* form */
 fieldset{
     position: relative;
     top: 75px;
@@ -164,18 +164,42 @@ input{
     padding-left: 5px;
 }
 
-.showless{
-    display:none;
-}
-
+/* meer/minder knopje */
 .showmore{
-    display:contents;
+    visibility: visible;
+    content: "show less";
+}
+
+.showless{
+    visibility: hidden;
+}
+
+.buttonstyle{
+    background:none;
+    outline: none;
+    border:none;
+    color: #009688;
+}
+
+.more:after{
+    content: "Minder";
+}
+
+.less:after{
+    content: "Meer";
+    position:relative;
+    bottom: 239px;
+    left: 107px;
+}
+
+.nodots{
+    display: none;
 }
 
 
 
 
-/*disclaimer*/
+/* disclaimer */
 .disclaimer{
     text-decoration: none;
     color: rgb(134, 134, 134);
@@ -222,7 +246,7 @@ footer{
     color: white;
 }
 
-/*menu*/
+/* menu */
 .menu {
     height: 75px;
     width:100%;
