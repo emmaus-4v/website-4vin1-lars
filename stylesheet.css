@@ -124,6 +124,7 @@ ol li:hover .currency{
     
 }*/
 
+/*form*/
 fieldset{
     position: relative;
     top: 75px;
@@ -163,6 +164,18 @@ input{
     padding-left: 5px;
 }
 
+.showless{
+    display:none;
+}
+
+.showmore{
+    display:contents;
+}
+
+
+
+
+/*disclaimer*/
 .disclaimer{
     text-decoration: none;
     color: rgb(134, 134, 134);
