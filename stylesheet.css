@@ -162,16 +162,17 @@ input{
     border-radius: 5px;
     color: white;
     padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 /* meer/minder knopje */
 .showmore{
-    visibility: visible;
+    display: contents;
     content: "show less";
 }
 
 .showless{
-    visibility: hidden;
+    display: none;
 }
 
 .buttonstyle{
@@ -187,16 +188,11 @@ input{
 
 .less:after{
     content: "Meer";
-    position:relative;
-    bottom: 239px;
-    left: 107px;
 }
 
 .nodots{
     display: none;
 }
-
-
 
 
 /* disclaimer */
