@@ -52,6 +52,18 @@ body {
     border-bottom: #009688 solid 0.5px;
 }
 
+.blockchain{
+    position: absolute;
+    top: 150px;
+    right: 550px;
+    border-radius: 15px;
+}
+
+.bitcoin{
+    width: 500px;
+    height: 400px;
+}
+
 /*
 .line{
     position: relative;
