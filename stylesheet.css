@@ -55,7 +55,7 @@ body {
 .blockchain{
     position: absolute;
     top: 150px;
-    right: 550px;
+    right: 500px;
     border-radius: 15px;
 }
 
@@ -81,12 +81,11 @@ body {
 
 .textbox{
     text-align: left;
-    width: fit-content;
     height:fit-content;
     color: white;
     position: relative;
     left: 150px;
-    width :600px;
+    width :700px;
 }
 
 /*.logo {
