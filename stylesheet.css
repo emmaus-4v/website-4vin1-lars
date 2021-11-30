@@ -44,7 +44,7 @@ body {
 }
 
 .headerline{
-    margin-top: 100px;
+    margin-top: 60px;
     width: 200px;
     text-align: left;
     position: relative;
@@ -134,6 +134,19 @@ ol li:hover .currency{
     background-color: #030911;
     
 }*/
+
+.cryptosoortimage{
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+    transform: rotate(-15deg);
+    box-shadow: #030911 50px;
+    margin: 0;
+}
+
+.cryptosoort{
+    height: 200px;
+}
 
 /* form */
 fieldset{
