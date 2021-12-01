@@ -136,16 +136,16 @@ ol li:hover .currency{
 }*/
 
 .cryptosoortimage{
+    margin: 0;
     position: relative;
     left: 250px;
     bottom: 200px;
     transform: rotate(-15deg);
     box-shadow: #030911 50px;
-    margin: 0;
 }
 
 .cryptosoort{
-    height: 200px;
+    height: fit-content;
 }
 
 /* form */
