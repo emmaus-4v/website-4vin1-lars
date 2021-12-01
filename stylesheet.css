@@ -136,7 +136,6 @@ ol li:hover .currency{
 }*/
 
 .cryptosoortimage{
-    margin: 0;
     position: relative;
     left: 250px;
     bottom: 200px;
@@ -144,9 +143,6 @@ ol li:hover .currency{
     box-shadow: #030911 50px;
 }
 
-.cryptosoort{
-    height: fit-content;
-}
 
 /* form */
 fieldset{
