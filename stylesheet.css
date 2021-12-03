@@ -137,10 +137,10 @@ ol li:hover .currency{
 }*/
 
 .cryptosoortimage{
+    filter: drop-shadow(0px 0px 15px black);
     float: right;
     position: absolute;
     right: 650px;
-    box-shadow: #030911 10px;
     width: 175px ;
     height: 175px;
 }
@@ -159,6 +159,10 @@ ol li:hover .currency{
     top: 30px;
 }
 
+#cardano{
+    position: relative;
+    top: 20px;
+}
 
 /* form */
 fieldset{
