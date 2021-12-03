@@ -44,7 +44,7 @@ body {
 }
 
 .headerline{
-    margin-top: 60px;
+    margin-top: 125px;
     width: 200px;
     text-align: left;
     position: relative;
@@ -82,6 +82,7 @@ body {
 .textbox{
     text-align: left;
     height:fit-content;
+    width: fit-content;
     color: white;
     position: relative;
     left: 150px;
@@ -136,11 +137,26 @@ ol li:hover .currency{
 }*/
 
 .cryptosoortimage{
-    position: relative;
-    left: 250px;
-    bottom: 200px;
+    float: right;
+    position: absolute;
+    right: 650px;
+    box-shadow: #030911 10px;
+    width: 175px ;
+    height: 175px;
+}
+
+.rotate{
     transform: rotate(-15deg);
-    box-shadow: #030911 50px;
+}
+
+#bitcoin{
+    position: relative;
+    bottom: 25px;
+}
+
+#binance{
+    position: relative;
+    top: 30px;
 }
 
 
