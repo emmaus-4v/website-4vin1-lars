@@ -1,11 +1,6 @@
+/* basic layout*/
+
 body {
-    /*background-image: url("https://cutewallpaper.org/21/crypto-wallpaper/Monday-blues-a-passive-crypto-market-today-CoinNewsSpan.jpg");
-    background-image: url("https://i.pinimg.com/originals/33/29/10/3329103a60d577aff682ff31982e1adc.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -100px;
-    background-image: url("https://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg"); 
-    color: rgb(130, 220, 255);*/
     background-color: #061121;
     margin: 0;
     padding: 0;
@@ -37,7 +32,7 @@ body {
     padding: 0 20px;
     margin-bottom: 40px;
     color: black;
-    border-radius: 10px;
+    border-radius: 10px; 
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
@@ -52,42 +47,6 @@ body {
     border-bottom: #009688 solid 0.5px;
 }
 
-.blockchain{
-    position: absolute;
-    top: 150px;
-    right: 500px;
-    border-radius: 15px;
-}
-
-.nftimage{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 200px;
-    right: 550px;
-    border-radius: 15px;
-}
-
-.bitcoin{
-    width: 500px;
-    height: 400px;
-}
-
-/*
-.line{
-    position: relative;
-    left: 150px;
-    height: 50px;
-    border-bottom: 0.5px solid #009688;
-    transition: 2s;
-    width: 100px;
-}
-
-.line:hover{
-    width:200px;
-}*/
-
-
 .textbox{
     text-align: left;
     height:fit-content;
@@ -98,204 +57,19 @@ body {
     width :700px;
 }
 
-/*.logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: -5px;
-    top: -20px;
-}*/
-
-ol li{
-    position: relative;
-    right: 20px;
-    display: inline;
-    list-style: none;
-    color: rgba(192, 192, 192, 80%)
-}
-
-.currency{
-    text-decoration: none;
-}
-
-ol li .currency{
-    margin: 0 5px;
-    transition: 0.7s;
-    color: rgba(192, 192, 192,70%);
-    padding: 3px 0;
-    /*border-color: rgba(160, 160, 160, 0%);*/
-}
-
-ol li:hover .currency{
-    margin: 0 15px;
-    color: white;
-    padding: 3px 8px;
-    /*background-color: #030911;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;*/
-    /*border: solid 0.3px rgba(160, 160, 160, 20%);*/
-}
-
-/*.form{
-    position:relative ;
-    left: 150px;
-    width: 500px;
-    height: 100px;
-    background-color: #030911;
-    
-}*/
-
 .link{
     font-family: 'Titillium Web', sans-serif;
     color: #009688;
 }
-.cryptosoortimage{
-    filter: drop-shadow(0px 0px 15px black);
+
+.floatright{
     float: right;
     position: relative;
-    right: 600px;
-    width: 175px ;
-    height: 175px;
-}
-
-.rotate{
-    transform: rotate(-15deg);
-}
-
-#bitcoin{
-    position: relative;
-    bottom: 25px;
-}
-
-#binance{
-    position: relative;
-    top: 30px;
-}
-
-#cardano{
-    position: relative;
-    top: 20px;
-}
-
-/* form */
-fieldset{
-    position: relative;
-    top: 75px;
-    margin: auto;
-    width: 500px;
-    height: fit-content;
-    border: solid 1px #009688;
-    border-top-left-radius: 15px ;
-    border-bottom-right-radius: 15px;
-    background-color: #030911;
-}
-
-.signup{
-    margin: 0;
-}
-
-.submit{
-    margin: 0;
-    margin-left: 4px;
-    color: #030911;
-    position: static;
-    font-weight: bold;
-}
-
-/*.label{
-    font-weight: bolder ;
-}*/
-
-input{
-    width: 175px;
-    height: 25px;
-    outline: none;
-    background: transparent;
-    border: 1px solid #01423c;
-    border-radius: 5px;
-    color: white;
-    padding-left: 5px;
-    margin-bottom: 10px;
-}
-
-/* meer/minder knopje */
-.showmore{
-    display: contents;
-    content: "show less";
-}
-
-.showless{
-    display: none;
-}
-
-.buttonstyle{
-    background:none;
-    outline: none;
-    border:none;
-    color: #009688;
-}
-
-.more:after{
-    content: "Minder";
-}
-
-.less:after{
-    content: "Meer";
-}
-
-.nodots{
-    display: none;
-}
-
-
-/* disclaimer */
-.disclaimer{
-    text-decoration: none;
-    color: rgb(134, 134, 134);
-    transition: 0.5s;
-}
-
-.disclaimer:hover{
-    color: white;
-}
-
-footer{
-    position: absolute;
     left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    margin-top: 75px;
-    background-color: #030911;
-    color: rgb(134, 134, 134);
-    text-align: center;
-    border-top: 0.2px solid rgba(160, 160, 160, 20%);
 }
 
-.bottomfooter{
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    margin-top: 75px;
-    background-color: #030911;
-    color: rgb(134, 134, 134);
-    text-align: center;
-    border-top: 0.2px solid rgba(160, 160, 160, 20%);
-}
 
-.footertext{
-    margin: 0 10px;
-    color: rgb(134, 134, 134);
-    transition: 0.5s;
-}
-
-.footertext:hover{
-    color: white;
-}
-
-/* menu */
+/* Menu */
 .menu {
     height: 75px;
     width:100%;
@@ -380,9 +154,233 @@ ul li a.active::after{
     color: white;
 }
 
-.floatright{
-    float: right;
-    position: relative;
-    left: 0;
+
+/* Plaatjes */
+
+.blockchain{
+    position: absolute;
+    top: 150px;
+    right: 500px;
+    border-radius: 15px;
 }
 
+.nftimage{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 175px;
+    right: 550px;
+    border-radius: 15px;
+}
+
+.imagetext{
+    font-size: 10px;
+    color: rgb(170, 170, 170);
+    position: relative;
+    left: 235px;
+    display: inline;
+}
+
+.cryptosoortimage{
+    filter: drop-shadow(0px 0px 15px black);
+    float: right;
+    position: relative;
+    right: 600px;
+    width: 175px ;
+    height: 175px;
+}
+
+.rotate{
+    transform: rotate(-15deg);
+}
+
+#bitcoin{
+    position: relative;
+    bottom: 25px;
+}
+
+#binance{
+    position: relative;
+    top: 30px;
+}
+
+#cardano{
+    position: relative;
+    top: 20px;
+}
+
+/*
+.line{
+    position: relative;
+    left: 150px;
+    height: 50px;
+    border-bottom: 0.5px solid #009688;
+    transition: 2s;
+    width: 100px;
+}
+
+.line:hover{
+    width:200px;
+}*/
+
+/*.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -5px;
+    top: -20px;
+}*/
+
+/* Cryptosoorten menu*/
+
+ol li{
+    position: relative;
+    right: 20px;
+    display: inline;
+    list-style: none;
+    color: rgba(192, 192, 192, 80%)
+}
+
+.currency{
+    text-decoration: none;
+}
+
+ol li .currency{
+    margin: 0 5px;
+    transition: 0.7s;
+    color: rgba(192, 192, 192,70%);
+    padding: 3px 0;
+}
+
+ol li:hover .currency{
+    margin: 0 15px;
+    color: white;
+    padding: 3px 8px;
+}
+
+/*.form{
+    position:relative ;
+    left: 150px;
+    width: 500px;
+    height: 100px;
+    background-color: #030911;
+    
+}*/
+
+/* Sign Up Form */
+fieldset{
+    position: relative;
+    top: 75px;
+    margin: auto;
+    width: 500px;
+    height: fit-content;
+    border: solid 1px #009688;
+    border-top-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    background-color: #030911;
+}
+
+.signup{
+    margin: 0;
+}
+
+.submit{
+    margin: 0;
+    margin-left: 4px;
+    color: #030911;
+    position: static;
+    font-weight: bold;
+}
+
+/*.label{
+    font-weight: bolder ;
+}*/
+
+input{
+    width: 175px;
+    height: 25px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #01423c;
+    border-radius: 5px;
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+/* Meer/Minder Knopje */
+.showmore{
+    display: contents;
+    content: "show less";
+}
+
+.showless{
+    display: none;
+}
+
+.buttonstyle{
+    background:none;
+    outline: none;
+    border:none;
+    color: #009688;
+}
+
+.more:after{
+    content: "Minder";
+}
+
+.less:after{
+    content: "Meer";
+}
+
+.nodots{
+    display: none;
+}
+
+
+/* Disclaimer */
+.disclaimer{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    transition: 0.5s;
+}
+
+.disclaimer:hover{
+    color: white;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 75px;
+    background-color: #030911;
+    color: rgb(134, 134, 134);
+    text-align: center;
+    border-top: 0.2px solid rgba(160, 160, 160, 20%);
+}
+
+.bottomfooter{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 75px;
+    background-color: #030911;
+    color: rgb(134, 134, 134);
+    text-align: center;
+    border-top: 0.2px solid rgba(160, 160, 160, 20%);
+}
+
+.footertext{
+    margin: 0 10px;
+    color: rgb(134, 134, 134);
+    transition: 0.5s;
+}
+
+.footertext:hover{
+    color: white;
+}
