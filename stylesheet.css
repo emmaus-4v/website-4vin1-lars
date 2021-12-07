@@ -1,4 +1,4 @@
-/* basic layout*/
+/* Basic Layout*/
 
 body {
     background-color: #061121;
@@ -26,16 +26,10 @@ body {
 }
 
 .headercenter{
-    background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));
-    margin-top: 100px;
-    width: fit-content;
-    padding: 0 20px;
-    margin-bottom: 40px;
-    color: black;
-    border-radius: 10px; 
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    left: 0px;
 }
 
 .headerline{
@@ -159,9 +153,10 @@ ul li a.active::after{
 
 .blockchain{
     position: absolute;
-    top: 150px;
-    right: 500px;
+    top: 175px;
+    right: 450px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .nftimage{
@@ -178,6 +173,7 @@ ul li a.active::after{
     color: rgb(170, 170, 170);
     position: relative;
     left: 235px;
+    bottom: 8px;
     display: inline;
 }
 
@@ -269,6 +265,7 @@ ol li:hover .currency{
 
 /* Sign Up Form */
 fieldset{
+    transform: scale(125%);
     position: relative;
     top: 75px;
     margin: auto;
@@ -278,6 +275,11 @@ fieldset{
     border-top-left-radius: 15px ;
     border-bottom-right-radius: 15px;
     background-color: #030911;
+    transition: 0.8s;
+}
+
+fieldset:hover {
+    transform: scale(130%);
 }
 
 .signup{

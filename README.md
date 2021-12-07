@@ -28,7 +28,7 @@ Stap 3: Lay-out
 - [x] Je hebt de onderdelen uit de layout in je html benoemd met tags, classes en/of ID’s. Je hebt met CSS ervoor gezorgd dat deze onderdelen op de juiste plaats op de pagina worden weergegeven.
 
 Stap 4: Inhoud en plaatjes 
-- [ ] Je hebt in html de inhoud op je hoofdpagina en al je subpagina’s gezet. 
+- [x] Je hebt in html de inhoud op je hoofdpagina en al je subpagina’s gezet. 
 - [ ] Je hebt plaatjes bij je inhoud gezocht, omgezet naar de juiste resolutie en op je website gezet. Alle plaatjes moet je opslaan, je linkt niet naar plaatjes op andere websites, die kunnen immers verwijderd worden. 
 
 Stap 5: Kleuren 
