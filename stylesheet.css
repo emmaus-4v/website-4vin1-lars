@@ -62,16 +62,6 @@ body {
     left: 0;
 }
 
-iframe{
-    width: 1000px;
-    height: 950px;
-    margin-top: -65px;
-    margin: 50px;
-    border: none;
-    overflow: hidden;
-    overflow-x: hidden;
-}
-
 
 /* Menu */
 .menu {
@@ -172,19 +162,25 @@ ul li a.active::after{
 .nftimage{
     width: 350px;
     height: 350px;
-    position: absolute;
-    top: 175px;
-    right: 550px;
-    border-radius: 15px;
+    border-radius: 8px;
+}
+
+.nft{
+    position: relative;
+    bottom:350px;
+    left: 1050px;
+    width:fit-content;
+    transform:scale(110%);
+    transition: 1s;
+}
+
+.nft:hover{
+    transform: scale(125%);
 }
 
 .imagetext{
     font-size: 10px;
     color: rgb(170, 170, 170);
-    position: relative;
-    left: 235px;
-    bottom: 8px;
-    display: inline;
 }
 
 .cryptosoortimage{
@@ -347,6 +343,19 @@ input{
 
 .nodots{
     display: none;
+}
+
+
+/* iframe */
+
+iframe{
+    width: 1000px;
+    height: 950px;
+    margin-top: -65px;
+    margin: 50px;
+    border: none;
+    overflow: hidden;
+    overflow-x: hidden;
 }
 
 

@@ -29,7 +29,7 @@ Stap 3: Lay-out
 
 Stap 4: Inhoud en plaatjes 
 - [x] Je hebt in html de inhoud op je hoofdpagina en al je subpagina’s gezet. 
-- [ ] Je hebt plaatjes bij je inhoud gezocht, omgezet naar de juiste resolutie en op je website gezet. Alle plaatjes moet je opslaan, je linkt niet naar plaatjes op andere websites, die kunnen immers verwijderd worden. 
+- [x] Je hebt plaatjes bij je inhoud gezocht, omgezet naar de juiste resolutie en op je website gezet. Alle plaatjes moet je opslaan, je linkt niet naar plaatjes op andere websites, die kunnen immers verwijderd worden. 
 
 Stap 5: Kleuren 
 - [x] Je hebt kleuren en fonts gekozen. 

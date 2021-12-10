@@ -13,6 +13,5 @@ function ShowLess()
     document.getElementById("info").classList.remove('showmore');
     document.getElementById("button").classList.remove('more');
     document.getElementById("info").classList.add('showless');
-    document.getElementById("button").classList.add('less');
-    
+    document.getElementById("button").classList.add('less');   
 }
