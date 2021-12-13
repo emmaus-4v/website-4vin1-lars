@@ -267,6 +267,11 @@ input{
     margin-bottom: 10px;
 }
 
+#thankyou{
+    transform: scale(130%);
+    margin-top: 200px;
+}
+
 
 /* Meer/Minder Knopje */
 
