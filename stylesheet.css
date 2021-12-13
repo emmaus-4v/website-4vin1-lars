@@ -49,6 +49,7 @@ body {
     position: relative;
     left: 150px;
     width :700px;
+    margin-right: 100px;
 }
 
 .link{
@@ -137,7 +138,7 @@ ul li a.active::after{
 .blockchain{
     position: absolute;
     top: 175px;
-    right: 450px;
+    right: 300px;
     border-radius: 15px;
     object-fit: cover;
 }
