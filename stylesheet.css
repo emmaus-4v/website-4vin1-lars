@@ -23,6 +23,7 @@ body {
     text-align: left;
     position: relative;
     left: 150px;
+    animation: openanimation 0.75s;
 }
 
 .headercenter{
@@ -39,6 +40,7 @@ body {
     position: relative;
     left: 150px;
     border-bottom: #009688 solid 0.5px;
+    animation: openanimation 0.85s;
 }
 
 .textbox{
@@ -50,6 +52,7 @@ body {
     left: 150px;
     width :700px;
     margin-right: 100px;
+    animation: openanimation ease-out 0.95s;
 }
 
 .link{
@@ -61,6 +64,10 @@ body {
     float: right;
     position: relative;
     left: 0;
+}
+
+.overflow{
+    overflow: hidden;
 }
 
 
@@ -76,6 +83,7 @@ body {
     backdrop-filter:blur(10px);
     -webkit-backdrop-filter:blur(10px);
     background-color: #061121;
+    animation: slideinmenu 1s ease-out;
 }
 
 ul li {
@@ -134,6 +142,10 @@ ul li a.active::after{
 
 
 /* Plaatjes */
+
+img{
+    animation: openanimation ease-out 1.05s;
+}
 
 .blockchain{
     position: absolute;
@@ -203,7 +215,8 @@ ol li{
     right: 20px;
     display: inline;
     list-style: none;
-    color: rgba(192, 192, 192, 80%)
+    color: rgba(192, 192, 192, 80%);
+    animation: openanimation ease-out 0.7s;
 }
 
 .currency{
@@ -253,6 +266,7 @@ fieldset:hover {
     color: #030911;
     position: static;
     font-weight: bold;
+    animation: none;
 }
 
 input{
@@ -268,8 +282,7 @@ input{
 }
 
 #thankyou{
-    transform: scale(130%);
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 
@@ -301,6 +314,41 @@ input{
 
 .nodots{
     display: none;
+}
+
+
+/* Keyframes */
+
+@keyframes openanimation{
+    from{
+        opacity: 0;
+        transform: translateY(-18px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideinmenu{
+    from{
+        transform: translateY(-100%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideinfooter{
+    from{
+        transform: translateY(100%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
 }
 
 
@@ -341,6 +389,7 @@ footer {
     color: rgb(134, 134, 134);
     text-align: center;
     border-top: 0.2px solid rgba(160, 160, 160, 20%);
+    animation: slideinfooter 2s ease-out;
 }
 
 .bottomfooter{
