@@ -75,13 +75,6 @@ body {
     backdrop-filter:blur(10px);
     -webkit-backdrop-filter:blur(10px);
     background-color: #061121;
-    /*background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-    opacity: 0.5;
-    width: fit-content;
-    padding:10px 20px;
-    margin: auto;
-    border-radius: 10px;*/
 }
 
 ul li {
@@ -98,7 +91,6 @@ ul li a{
     font-size:20px;
     font-family: 'Titillium Web', sans-serif;
     padding: 10px 0;
-    /*color: rgba(255, 255, 255, 75%);*/
     color: rgb(170, 170, 170);
     margin: 0 20;
     position: relative;
@@ -113,10 +105,6 @@ ul li a:hover{
 ul li a::after{
     content: '';
     height: 2px;
-    /*background-color: #2AF598;
-    background-image: linear-gradient(45deg, #2AF598 0%, #009688 40%);*/
-    /*background-color: rgb(94, 25, 255);
-    background-image: linear-gradient(45deg, rgb(35, 35, 255), rgb(94, 25, 255),rgb(255, 0, 255));*/
     background-color: #009688;
     width: 0;
     display:block;
@@ -126,11 +114,6 @@ ul li a::after{
 }
 
 ul li a:hover::after {
-    /*color:rgb(255, 255, 255);
-    position: relative;
-    top: -6px; 
-    #2AF598
-    border-bottom: 1.5px solid #2AF598;*/
     width: 100%;
 }
 
@@ -211,27 +194,6 @@ ul li a.active::after{
     top: 20px;
 }
 
-/*
-.line{
-    position: relative;
-    left: 150px;
-    height: 50px;
-    border-bottom: 0.5px solid #009688;
-    transition: 2s;
-    width: 100px;
-}
-
-.line:hover{
-    width:200px;
-}*/
-
-/*.logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: -5px;
-    top: -20px;
-}*/
 
 /* Cryptosoorten menu*/
 
@@ -260,14 +222,6 @@ ol li:hover .currency{
     padding: 3px 8px;
 }
 
-/*.form{
-    position:relative ;
-    left: 150px;
-    width: 500px;
-    height: 100px;
-    background-color: #030911;
-    
-}*/
 
 /* Sign Up Form */
 fieldset{
@@ -300,10 +254,6 @@ fieldset:hover {
     font-weight: bold;
 }
 
-/*.label{
-    font-weight: bolder ;
-}*/
-
 input{
     width: 175px;
     height: 25px;
@@ -316,7 +266,9 @@ input{
     margin-bottom: 10px;
 }
 
+
 /* Meer/Minder Knopje */
+
 .showmore{
     display: contents;
     content: "show less";
@@ -351,15 +303,14 @@ input{
 iframe{
     width: 1000px;
     height: 950px;
-    margin-top: -65px;
-    margin: 50px;
+    
     border: none;
     overflow: hidden;
-    overflow-x: hidden;
 }
 
 
 /* Disclaimer */
+
 .disclaimer{
     text-decoration: none;
     color: rgb(134, 134, 134);
@@ -370,7 +321,10 @@ iframe{
     color: white;
 }
 
-footer{
+
+/* Footer */
+
+footer {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -387,13 +341,6 @@ footer{
     position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
-    height: 50px;
-    margin-top: 75px;
-    background-color: #030911;
-    color: rgb(134, 134, 134);
-    text-align: center;
-    border-top: 0.2px solid rgba(160, 160, 160, 20%);
 }
 
 .footertext{
