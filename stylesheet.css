@@ -10,6 +10,7 @@ body {
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 70px;
+    overflow-x: hidden;
 }
 
 .header {
@@ -65,10 +66,6 @@ body {
     float: right;
     position: relative;
     left: 0;
-}
-
-.overflow{
-    overflow: hidden;
 }
 
 
@@ -142,34 +139,45 @@ ul li a.active::after{
 
 img{
     animation: openanimation ease-out 0.95s;
+    border-radius: 8px;
 }
 
-.blockchain{
-    position: absolute;
-    top: 150px;
-    right: 150px;
-    border-radius: 15px;
+.imagecontainer{
+    position: relative;
+}
+
+.nftcontainer{
+    position: relative;
+    left: 1000px;
+    bottom: 350px;
+    transform:scale(110%);
+    transition: 1s;
+}
+
+.contentimage{
     object-fit: cover;
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 1000px;
+    bottom: 45px;
+}
+
+.cryptosoortimage{
+    filter: drop-shadow(0px 0px 15px black);
+    float: right;
+    position: absolute;
+    right: 250px;
+    width: 175px ;
+    height: 175px;
 }
 
 .nftimage{
     width: 350px;
     height: 350px;
-    border-radius: 8px;
 }
 
-.nft{
-    position: relative;
-    bottom:350px;
-    left: 1050px;
-    width:fit-content;
-    transform:scale(110%);
-    transition: 1s;
-}
-
-.nft:hover{
+.nftcontainer:hover{
     transform: scale(125%);
 }
 
@@ -178,17 +186,13 @@ img{
     color: rgb(170, 170, 170);
 }
 
-.cryptosoortimage{
-    filter: drop-shadow(0px 0px 15px black);
-    float: right;
-    position: relative;
-    right: 400px;
-    width: 175px ;
-    height: 175px;
-}
-
 .rotate{
     transform: rotate(-15deg);
+}
+
+#infoimage{
+    position: absolute;
+    top: 0;
 }
 
 #bitcoin{
