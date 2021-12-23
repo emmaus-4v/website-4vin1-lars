@@ -70,6 +70,7 @@ body {
 
 
 /* Menu */
+
 .menu {
     height: 75px;
     width:100%;
@@ -241,6 +242,7 @@ ol li:hover .currency{
 
 
 /* Sign Up Form */
+
 fieldset{
     transform: scale(125%);
     position: relative;
@@ -363,6 +365,7 @@ iframe{
     z-index: 1;
     background-color: #061121;
 }
+
 
 /* Disclaimer */
 
