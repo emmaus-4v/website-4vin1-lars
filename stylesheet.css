@@ -149,19 +149,20 @@ img{
 
 .nftcontainer{
     position: relative;
-    left: 1000px;
-    bottom: 350px;
+    width: fit-content;
+    left: 1100px;
+    bottom: 380px;
     transform:scale(110%);
     transition: 1s;
 }
 
 .contentimage{
     object-fit: cover;
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     position: absolute;
     left: 1000px;
-    bottom: 45px;
+    bottom: 15px;
 }
 
 .cryptosoortimage{
@@ -169,7 +170,7 @@ img{
     float: right;
     position: absolute;
     right: 250px;
-    width: 175px ;
+    width: 175px;
     height: 175px;
 }
 
@@ -193,7 +194,7 @@ img{
 
 #infoimage{
     position: absolute;
-    top: 0;
+    top: -25px;
 }
 
 #bitcoin{
