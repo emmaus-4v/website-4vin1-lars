@@ -68,6 +68,10 @@ body {
     left: 0;
 }
 
+.overflow{
+    overflow-y:hidden;
+}
+
 
 /* Menu */
 
@@ -148,7 +152,6 @@ img{
 }
 
 .nftcontainer{
-    position: relative;
     width: fit-content;
     left: 1100px;
     bottom: 380px;
@@ -351,6 +354,8 @@ input{
 /* iframe */
 
 iframe{
+    position: relative;
+    bottom: 70px;
     width: 1000px;
     height: 950px;
     border: none;
@@ -360,9 +365,9 @@ iframe{
 
 .iframebox{
     position: relative;
-    top: 50px;
+    top: -10px;
     width:100%;
-    height: 65px;
+    height: 50px;
     z-index: 1;
     background-color: #061121;
 }
